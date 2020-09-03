@@ -1,0 +1,29 @@
+.movies {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.movies>li {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid gold;
+  border-radius: 1rem;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.genre {
+  list-style: none;
+  padding: 0;
+}
+
+.genre>li {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid greenyellow;
+  border-radius: 2px;
+  background-color: greenyellow;
+}

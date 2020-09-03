@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="style.css">
+{{#if movies}}
+<h1>Best movies of all times!</h1>
+<ul class='movies'>
+  {{#each movies}}
+  <li>
+    <h1>{{title}}</h1>
+    <p>Year: {{year}}</p>
+    <p>Director: {{director}}</p>
+    <ul class='genre'>
+      {{#each genre}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </li>
+  {{/each}}
+</ul>
+{{/if}}
